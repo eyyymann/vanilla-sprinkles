@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "vanillasprinkles",
+	"version": "${version}",
+	"name": "Vanilla Sprinkles",
+	"description": "This mod plans to add many drop-like content additions.",
+	"authors": [
+		"six_eyes"
+	],
+	"contact": {
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/vanillasprinkles/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sixeyes.vanillasprinkles.VanillaSprinkles"
+		],
+		"fabric-datagen": [
+			"net.sixeyes.vanillasprinkles.VanillaSprinklesDataGenerator"
+		],
+		"client": [
+			"net.sixeyes.vanillasprinkles.client.VanillaSprinklesClient"
+		]
+	},
+	"mixins": [
+		"vanillasprinkles.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.7",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "part=1": {
+      "model": "vanillasprinkles:block/thick_grass_base"
+    },
+    "part=2": {
+      "model": "vanillasprinkles:block/thick_grass_middle"
+    },
+    "part=3": {
+      "model": "vanillasprinkles:block/thick_grass_top"
+    }
+  }
+}

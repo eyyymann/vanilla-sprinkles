@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "vanillasprinkles:block/short_snowy_grass"
+  }
+}
